@@ -1,0 +1,172 @@
+/*
+ * index.css
+ */
+
+p,
+h1,
+h2,
+h3,
+h4,
+div,
+body,
+html,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+* {box-sizing: border-box;}
+body {font-family: 'arial';}
+
+.app {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.home h1 {
+    font-size: 96px;
+    line-height: 100px;
+	z-index: 300;
+}
+.home p {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 15px 0 15px 0;
+    width: 66%;
+	z-index: 300;
+}
+.home .container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+	height: 100vh;
+    justify-content: center;
+	min-height: 909px;
+    padding: 0 45px 0 285px;
+}
+.home .logo-big {
+	bottom: -2%;
+	position: absolute;
+	right: 5%;
+	z-index: 2;
+}
+.home .thumbnail-row {
+    display: flex;
+    flex-direction: row;
+}
+.home .thumbnail {
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    width: 25%;
+}
+.home .thumbnail-header { 
+    padding: 30px 0 30px 0;
+}
+.home .thumbnail h2 {
+    font-size: 32px;
+    text-align: center;
+}
+.home .thumbnail i {
+    color: #f83535;
+    font-size: 62px;
+    padding: 0 0 20px 0;
+}
+.home .thumbnail p {
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 20px;
+    text-align: center;
+}
+
+.main {}
+
+.sidebar {
+    background-color: #dbdbdb;
+	border-top: 5px solid #f83535;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 100%;
+    padding-top: 40px;
+    position: fixed;
+    top: 0;
+    width: 260px;
+	z-index: 500;
+}
+.sidebar a {
+    color: hsl(0, 0%, 20%);
+    text-decoration: none;
+}
+.sidebar button {
+    background-color: #f83535;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    height: 28px;
+    padding-right: 20px;
+    transition: background-color 0.5s ease;
+    width: 175px;
+}
+.sidebar button:hover {
+    background-color: hsl(0, 0%, 20%);
+}
+.sidebar footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar div {
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 30px;
+    width: 30px;
+}
+.sidebar footer i {
+    color: #dbdbdb;
+    font-size: 18px;
+    left: 6px;
+    position: relative;
+    top: 6px;
+}
+.sidebar footer p {
+    color: #9e9d9d;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 20px;
+    text-align-last: center;
+}
+.sidebar .nav-bar i {
+    font-size: 14px;
+    margin-right: 10px;
+}
+.sidebar .nav-bar li {
+    list-style: none;
+    padding: 5px 0 5px 40px;
+    transition: background-color 0.3s ease;
+}
+.sidebar li:hover {
+    background-color: hsl(0, 0%, 70%);
+}
+.sidebar ul {
+    padding: 20px 0 10px 0;
+}
+.sidebar .nav-break {
+    border-top: 4px solid hsl(0, 0%, 75%);
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 10px; 
+    width: 10px;
+}
+.sidebar .nav-logo-big {
+    height: auto;
+    margin: 0 auto;
+    width: 150px;
+}
+
+
